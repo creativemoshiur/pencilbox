@@ -1,0 +1,83 @@
+:root {
+    --brand-primary: #0d6efd;
+    --brand-dark: #212529;
+}
+.navbar-brand img {
+    height: 40px;
+}
+.carousel-caption h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.carousel-caption p {
+    font-size: 1.1rem;
+}
+.section-title {
+    text-align: center;
+    margin-bottom: 50px;
+}
+.section-title h2 {
+    font-weight: bold;
+    color: var(--brand-dark);
+}
+.section-title p {
+    color: #6c757d;
+}
+.footer-dark {
+    background-color: var(--brand-dark);
+    color: rgba(255, 255, 255, 0.8);
+}
+.footer-dark h5 {
+    font-weight: bold;
+    color: #fff;
+}
+.footer-dark a {
+    color: rgba(255, 255, 255, 0.8);
+    text-decoration: none;
+}
+.footer-dark a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+.footer-dark .social-icons a {
+    color: #fff;
+    transition: color 0.3s;
+}
+.footer-dark .social-icons a:hover {
+    color: var(--brand-primary);
+}
+.card-course {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card-course:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+}
+.footer-dark hr {
+    border-top-color: rgba(255, 255, 255, 0.1);
+}
+.page-header {
+    position: relative;
+    text-align: center;
+}
+.page-header img {
+    height: 400px;
+    object-fit: cover;
+}
+.page-header-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.team-slider .carousel-control-prev-icon,
+.team-slider .carousel-control-next-icon {
+    background-color: var(--brand-dark);
+    border-radius: 50%;
+}

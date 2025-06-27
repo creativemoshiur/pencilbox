@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us - JIT Technical Institute</title>
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/all.css" />
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark sticky-top">
+        <div class="container">
+            <a href="index.html" class="navbar-brand">
+    <img src="img/logo.png" alt="JIT Technical Logo">            </a>
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="navbar-nav mx-auto">
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li><a href="about.html" class="nav-link">About Us</a></li>
+                    <li class="dropdown">
+                        <a href="service.html" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Services</a>
+                        <ul class="dropdown-menu dropdown-menu-dark">
+                            <li><a href="service.html#web" class="dropdown-item">Web Development</a></li>
+                            <li><a href="service.html#graphics" class="dropdown-item">Graphic Design</a></li>
+                            <li><a href="service.html#digital" class="dropdown-item">Digital Marketing</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="gallery.html" class="nav-link">Gallery</a></li>
+                    <li><a href="notice.html" class="nav-link">Notice</a></li>
+                    <li><a href="contact.html" class="nav-link active">Contact</a></li>
+                </ul>
+                <ul class="navbar-nav">
+                    <li><a href="#" class="nav-link">Login</a></li>
+                    <li><a href="#" class="nav-link">Sign Up</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="page-header">
+        <img src="img/slider1.jpeg" alt="Contact Us Banner" class="w-100">
+        <div class="page-header-overlay">
+            <h1>Contact Us</h1>
+        </div>
+    </section>
+
+    <section class="py-5">
+        <div class="container">
+            <div class="row gy-4 align-items-center">
+                <div class="col-md-6">
+                    <h2 class="fw-bold">Get in Touch</h2>
+                    <p>We would love to hear from you. Reach out to us using the information below or send us a message using the contact form. Our team is always ready to assist you.</p>
+                    <ul class="list-unstyled">
+                        <li class="mt-3">
+                            <h5><i class="fa fa-map-marker-alt text-primary me-2"></i>Address</h5>
+                            <p class="ms-4">Bokultola Mor, Near DC Office, Jamalpur-2000</p>
+                        </li>
+                        <li class="mt-3">
+                            <h5><i class="fa fa-phone-alt text-primary me-2"></i>Phone</h5>
+                            <p class="ms-4">+880 1957 207088</p>
+                        </li>
+                        <li class="mt-3">
+                            <h5><i class="fa fa-envelope text-primary me-2"></i>Email</h5>
+                            <p class="ms-4"><a href="mailto:support@jittc.com.bd" class="text-decoration-none text-dark">support@jittc.com.bd</a></p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <div class="card p-4 shadow-sm">
+                        <h2 class="fw-bold text-center mb-4">Send a Message</h2>
+                        <form id="contactForm" action="#" method="POST">
+                            <div class="mb-3">
+                                <label for="name" class="form-label">Your Name</label>
+                                <input type="text" id="name" name="name" class="form-control" required />
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Your Email</label>
+                                <input type="email" id="email" name="email" class="form-control" required />
+                            </div>
+                            <div class="mb-3">
+                                <label for="subject" class="form-label">Subject</label>
+                                <input type="text" id="subject" name="subject" class="form-control" />
+                            </div>
+                            <div class="mb-3">
+                                <label for="message" class="form-label">Message</label>
+                                <textarea id="message" name="message" rows="5" class="form-control" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary w-100">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-5 bg-light">
+        <div class="container">
+            <h2 class="mb-4 text-center fw-bold">Our Location</h2>
+            <div class="ratio ratio-16x9 rounded shadow">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3622.39694482613!2d89.94054581500122!3d24.92194888409157!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39fdfb7465f3f09f%3A0x8979c33678ca4393!2sJamalpur%20DC%20Office!5e0!3m2!1sen!2sbd!4v1687888504631!5m2!1sen!2sbd"
+                    style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+                    title="JIT Technical Institute Location"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-5 footer-dark">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <h5>JIT Technical Institute</h5>
+                    <p class="pe-3">A trusted institution dedicated to building a bright future for the youth of the Jamalpur region through IT education.</p>
+                    <div class="d-flex gap-3 social-icons">
+                        <a href="#"><i class="fa-brands fa-2x fa-facebook-square"></i></a>
+                        <a href="#"><i class="fa-brands fa-2x fa-twitter-square"></i></a>
+                        <a href="#"><i class="fa-brands fa-2x fa-youtube-square"></i></a>
+                        <a href="#"><i class="fa-brands fa-2x fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-4">
+                    <h5>Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="index.html">Home</a></li>
+                        <li class="mb-2"><a href="about.html">About Us</a></li>
+                        <li class="mb-2"><a href="contact.html">Contact</a></li>
+                        <li class="mb-2"><a href="notice.html">Notice Board</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-4">
+                    <h5>Our Courses</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="service.html#web">Web Development</a></li>
+                        <li class="mb-2"><a href="service.html#graphics">Graphic Design</a></li>
+                        <li class="mb-2"><a href="service.html#digital">Digital Marketing</a></li>
+                        <li class="mb-2"><a href="#">Admission Info</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <h5>Contact Us</h5>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-2"></i>Bokultola Mor, Near DC Office, Jamalpur-2000</p>
+                    <p class="mb-2"><i class="fa fa-phone-alt me-2"></i>+880 1957 207088</p>
+                    <p class="mb-2"><i class="fa fa-envelope me-2"></i>support@jittc.com.bd</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col pt-4">
+                    <hr/>
+                    <p class="text-center mb-0">&copy; 2025 JIT Technical Institute. All Rights Reserved. | Designed & Developed By Md. Moshiur Rahman</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
